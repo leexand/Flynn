@@ -6,7 +6,7 @@ module.exports = {
             const { buttons } = client;
             const { customId } = interaction;
             const button = buttons.get(customId);
-            if(!button) return interaction.reply({ content: 'Este boton no tiene código' });
+            if(!button) return;
             try{
                 await button.execute(interaction, client);
             } catch(err){
