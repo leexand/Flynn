@@ -1,0 +1,21 @@
+{
+  "name": "flynn",
+  "version": "3.5.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lexand",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "canvas": "^2.11.2",
+    "cli-table": "^0.3.11",
+    "discord.js": "^14.11.0",
+    "glob": "^8.0.3",
+    "mongoose": "^7.3.1",
+    "openai": "^3.3.0"
+  }
+}
