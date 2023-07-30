@@ -67,7 +67,7 @@ module.exports = {
             .setAuthor({ name: `${message.guild.name}`, iconURL: `${message.guild.iconURL({ dynamic: true })}` })
             .setTitle(`> Ayuda de *${client.user.username}*`)
             .setThumbnail(client.user.displayAvatarURL())
-            .setDescription(`> Hola soy ${client.user.username} un Bot`)
+            .setDescription(`> Mi esquizofrenia y yo formamos el dúo dinámico de la imaginación.\nSiempre estamos preparados para sorprendernos mutuamente con nuevas ideas... ¡y a veces hasta nos sorprendemos a nosotros mismos!`)
             .addFields(
                 { name: 'Ver una categoria:', value: `*\`f!help <categoria>\`*`, inline: true },
                 { name: 'Ver una comando:', value: `*\`f!help <comando>\`*`, inline: true }

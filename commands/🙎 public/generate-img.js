@@ -1,6 +1,6 @@
 const { Message, EmbedBuilder } = require('discord.js')
 const { Configuration, OpenAIApi } = require('openai');
-const configuration = new Configuration({ apiKey: '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' });
+const configuration = new Configuration({ apiKey: '' });
 const openai = new OpenAIApi(configuration);
 module.exports = {
     name: 'imagengenerator',
