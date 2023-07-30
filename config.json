@@ -1,7 +1,7 @@
 {
-    "token":"",
-    "mongopass":"",
-    "color":"",
-    "developer":[]
+    "token":"token aqui",
+    "mongopass":"mongopass aqui",
+    "color":"#000000",
+    "developer":["ID's aqui"]
 
 }
