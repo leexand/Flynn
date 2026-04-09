@@ -6,7 +6,7 @@ flynn
 flynn.exe
 
 # Storage en disco — se regenera al arrancar
-data/channels.json
+data/
 
 # Dependencias descargadas por Go (opcional, algunos prefieren incluir go.sum)
 # vendor/
