@@ -1,1 +1,16 @@
+# Variables de entorno — nunca subir al repo
 .env
+
+# Binario compilado
+flynn
+flynn.exe
+
+# Storage en disco — se regenera al arrancar
+data/channels.json
+
+# Dependencias descargadas por Go (opcional, algunos prefieren incluir go.sum)
+# vendor/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
